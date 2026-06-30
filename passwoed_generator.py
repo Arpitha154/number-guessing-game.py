@@ -8,7 +8,7 @@ symbols = input("incliude symbols?(yes/no):").lower()
 if numbers == "yes":
     characters += string.digits
     if symbols == "yes":
-        symbols += string.punctuation
+        characters += string.punctuation
 password = " "
 for i in range (length ):
     password += random.choice(characters)
